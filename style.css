@@ -1,0 +1,40 @@
+.wrapper{width: 100%;overflow: hidden;}
+.container{width: 100%; max-width: 1480px;margin: 0 auto;}
+a{font-size: 16px;text-decoration: none;}
+ul,ol{list-style: none;}
+p{font-size: 18px;margin: 0;}
+h2{font-size: 35px;margin: 0;}
+
+/* header css start */
+.main-wrapper{padding-top: 10px;}
+.logo-section{border-bottom: 2px solid #f5f5f5;padding-bottom: 40px;}
+/* header css end */
+
+/* banner css start */
+.banner-section{padding-top: 40px;}
+.banner-section img{width: 100%;}
+.content-section h2{color: #080844f7;font-weight: 600;padding: 30px 0 10px;}
+.content-section p{color: #2b2b69f7;padding-bottom: 30px;}
+.content-section a{background: #f4c504;padding: 10px 40px;color: #131212;font-size: 18px;}
+.content-section{margin-bottom: 20px;}
+.banner-wrapper{border-bottom: 2px solid #f5f5f5;padding-bottom: 20px;}
+.responsive-img img{display: none;}
+/* banner css end */
+
+/* love for css start */
+.right-img img{width: 100%;height: 400px;max-width: 300px;}
+.for-the-section{display: flex;gap: 30px;}
+.left-content a{font-size: 18px;font-weight: 600;}
+.left-content p{padding:8px 0 20px;}
+.for-the-wrapper{padding-top: 40px;border-bottom: 2px solid #f5f5f5;padding-bottom: 20px;}
+/* love for css end */
+
+/* media css start */
+@media(max-width: 992px){
+    .for-the-section{flex-direction: column;align-items: center;}
+    .responsive-img img{display: block;width: 100%;}
+    .banner-section img{display: none;}
+    .right-img img{max-width: unset;height: unset;}
+    .responsive-img{margin-top: 40px;}
+}
+/* media css end */
